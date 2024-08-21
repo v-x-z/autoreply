@@ -19,4 +19,4 @@ async def on_message(message):
 async def on_ready():  
     print(f'{bot.user} has connected to Discord!')  
 
-bot.run('TOKEN', bot=False)
+bot.run('YOUR_TOKEN', bot=False)
