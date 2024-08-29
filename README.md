@@ -8,7 +8,7 @@ make a new enviroment and go to your terminal and paste in the installation:
 
 pip install discord.py==1.7.3
 
-then paste the code from the autoreply.py into your python file
+then paste the code from the autoreply.py into your python file and run it
 
 then congratulations you now have a discord autoreply to reply to all of your dms while your away or afk
 
