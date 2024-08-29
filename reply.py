@@ -13,10 +13,10 @@ async def on_message(message):
             await bot.process_commands(message)  
         else:  
             if bot.user.mentioned_in(message):  
-                await message.channel.send('your_reply_here')
+                await message.channel.send('your_reply_here') # your reply goes here to respond to people
 
 @bot.event  
 async def on_ready():  
-    print(f'{bot.user} has connected to Discord!')  
+    print(f'{bot.user} has connected to Discord!')  # you can change this to anything you want to appear in the terminal
 
-bot.run('YOUR_TOKEN', bot=False)
+bot.run('YOUR_TOKEN', bot=False) # discord token goes here
