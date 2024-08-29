@@ -13,10 +13,10 @@ async def on_message(message):
             await bot.process_commands(message)  
         else:  
             if bot.user.mentioned_in(message):  
-                await message.channel.send('your_reply_here') # your reply goes here to respond to people
+                await message.channel.send('your_reply_here') # this is the reply you want people to see
 
 @bot.event  
 async def on_ready():  
-    print(f'{bot.user} has connected to Discord!')  # you can change this to anything you want to appear in the terminal
+    print(f'{bot.user} your autoreplying has started!')
 
-bot.run('YOUR_TOKEN', bot=False) # discord token goes here
+bot.run('YOUR_TOKEN', bot=False) # your discord token goes here in 'your_token' if you dont know how to get your token search up a guide 
