@@ -4,7 +4,7 @@ this only works with python and discord.py 1.7.3 and a code editor (vs code coul
 
 make a .py file in your code editor
 
-make a new enviroment and go to your terminal and past in the installation:
+make a new enviroment and go to your terminal and paste in the installation:
 
 pip install discord.py==1.7.3
 
